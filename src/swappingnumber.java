@@ -13,6 +13,8 @@ public class swappingnumber {
         b= a-b; // 600-400 =200
         a= a-b; //600-200=400
 
+      //  a= a+b-(b=a); //swapping in one line
+
         System.out.println(a);
         System.out.println(b);
 

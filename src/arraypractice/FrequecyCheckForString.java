@@ -13,11 +13,16 @@ public class FrequecyCheckForString {
             HashMap<Character,Integer> map = new HashMap<>();
 
             for (char ch:str.toCharArray()){
-                map.put(ch,map.getOrDefault(ch,0)+1);
+                if(ch!=' '){
+                    map.put(ch,map.getOrDefault(ch,0)+1);
+
+                }
+                //map.put(ch,map.getOrDefault(ch,0)+1);
 
             }
 
             //print the value
+            System.out.println(map);
 
             for(Map.Entry<Character,Integer>entry:map.entrySet()){
 

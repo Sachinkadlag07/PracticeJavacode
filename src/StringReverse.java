@@ -6,15 +6,18 @@ public class StringReverse {
 
         String result="";
 
-        for (int i=strr.length-1;i>=0;i--){
-           if (i==0){
-               result= result + strr[i];
+        for(int i=strr.length-1;i>=0;i--){
 
-           }else {
-               result= result + strr[i]+" ";
-           }
+            if(i==0){
+                result = result +strr[i];
+            }else {
+                result = result + strr[i] + " ";
+
+            }
+
 
         }
+
 
         return result;
 
@@ -32,7 +35,8 @@ public class StringReverse {
         //using toCharArray() method
         char[] chArr= Str.toCharArray();
         int l = Str.length();
-        for(int i=l-1;i>=0;i--){
+
+        for (int i = l - 1; i >= 0; i--) {
             System.out.print(chArr[i]);
         }
 

@@ -14,7 +14,7 @@ public class Stringsorting {
 
         char temp ;
 
-        for(int i=0; i<len ;i++){
+        for(int i=0; i<=len ;i++){
 
             for( int j= i+1;j<len;j++) {
 
@@ -26,7 +26,7 @@ public class Stringsorting {
             }
 
         }
-        System.out.println(new String(arry));
+        System.out.println(arry);
 
 
 
@@ -38,7 +38,7 @@ public class Stringsorting {
         String Str1= "vishakha";
         char[] arr= Str1.toCharArray();
         Arrays.sort(arr);
-        System.out.println(new String(arr));
+       // System.out.println(arr);
 
     }
 

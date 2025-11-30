@@ -8,7 +8,7 @@ public class Stringpalindrome {
             return false;
         StringBuilder strb=new StringBuilder(str);
         strb.reverse();
-        System.out.println(strb);
+       // System.out.println(strb);
         return strb.toString().equals(str);
     }
 

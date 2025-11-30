@@ -1,5 +1,7 @@
 package arraypractice;
 
+import java.sql.SQLOutput;
+
 public class practiceJavaBasic {
 
     public static void main (String[] args) {
@@ -9,7 +11,7 @@ public class practiceJavaBasic {
 
 
         //with out ifelse check the pass or fail
-        int marks = 34;
+        int marks = 35;
 
         String[] result = {"Fail", "Pass"};
         System.out.println(result[marks/35]);
@@ -50,6 +52,11 @@ public class practiceJavaBasic {
 
         System.out.println('A'+'B'); // 131
         System.out.println('S');    // S
+
+        System.out.println(10+20 + "Hello"); // 30Hello
+        System.out.println("Hello" +10+20); // Hello1020
+        System.out.println(10+ "Hello" +20); // 10Hello20
+        System.out.println("Hello" +(10+20)); // Hello30
 
 
 

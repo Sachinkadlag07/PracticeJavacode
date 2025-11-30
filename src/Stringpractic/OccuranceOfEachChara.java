@@ -19,6 +19,8 @@ public class OccuranceOfEachChara {
             System.out.println(mentry.getKey()+": "+mentry.getValue());
         }
 
+        System.out.println(cmap);
+
 
     }
 

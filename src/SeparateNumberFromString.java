@@ -7,9 +7,10 @@ public class SeparateNumberFromString {
         System.out.println(digit);
 
         String digits = str.replaceAll("\\D", "");     // Only digits
-        String letters = str.replaceAll("\\d", "");
+        String letters = str.replaceAll("\\d", "");// this small d is for digit and capital D is for non digit
 
-        System.out.println(letters);
+        System.out.println("L"+letters);
+        System.out.println(digits);
 
         StringBuilder number = new StringBuilder();
 

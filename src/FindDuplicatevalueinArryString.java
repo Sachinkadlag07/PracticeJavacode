@@ -24,7 +24,7 @@ public class FindDuplicatevalueinArryString {
 
         }
 
-        String[] names = {"apple", "banana", "cherry", "apple", "banana", "date"};
+            String[] names = {"apple", "banana", "cherry", "apple", "banana", "date"};
 
         HashSet<String> seen = new HashSet<>();
         HashSet<String> duplicate = new HashSet<>();
@@ -36,6 +36,7 @@ public class FindDuplicatevalueinArryString {
         }
 
         System.out.println(duplicate);
+        System.out.println(seen);
 
 
         HashMap<String,Integer> map= new HashMap<>();

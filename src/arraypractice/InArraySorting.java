@@ -1,5 +1,7 @@
 package arraypractice;
 
+import java.util.Arrays;
+
 public class InArraySorting {
 
     public static void main(String[] args) {
@@ -20,8 +22,10 @@ public class InArraySorting {
 
                 }
             }
-            System.out.print(a[i]+"\t");
+           // System.out.println(Arrays.toString(a));
         }
+
+        System.out.println(Arrays.toString(a));
 
     }
 }

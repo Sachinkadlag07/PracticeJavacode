@@ -18,6 +18,7 @@ public class findingduplicatefromarray
             }
         }
         System.out.println("duplicate are : "+duplicate);
+        System.out.println("after removing dupicate :" +elements);
 
 
 

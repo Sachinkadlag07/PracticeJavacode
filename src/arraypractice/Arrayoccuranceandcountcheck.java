@@ -23,12 +23,15 @@ public class Arrayoccuranceandcountcheck {
         checkfreq(arr);
 
 
+        checkFreqWord(S1);
+
+
     }
 
-    public static void stringarrfrequncecheck(String [] arr){
-        Map<String,Integer> map = new HashMap<>();
+    public static void stringarrfrequncecheck(String [] arr) {
+        Map<String, Integer> map = new HashMap<>();
 
-        for(int i=0;i<arr.length;i++) {
+        for (int i = 0; i < arr.length; i++) {
 
             if (map.containsKey(arr[i])) {
                 map.put(arr[i], map.get(arr[i]) + 1);
@@ -36,13 +39,15 @@ public class Arrayoccuranceandcountcheck {
                 map.put(arr[i], 1);
             }
         }
-        for(Map.Entry<String,Integer>entry:map.entrySet()){
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
             //if (entry.getValue()>1) {//to check if value is greater than 1 mean it duplicate charactor will be stored in it
-                System.out.println(entry.getKey() + " " + entry.getValue());
+            System.out.println(entry.getKey() + " " + entry.getValue());
 
         }
 
     }
+
+
 
 
     public static void checkfreq(int arr[]){
@@ -62,12 +67,19 @@ public class Arrayoccuranceandcountcheck {
             System.out.println(entry.getKey()+" "+entry.getValue());
         }
 
+    }
 
+    public static void  checkFreqWord(String str){
 
+        String [] words = str.split(" ");
 
+        HashMap<String,Integer> mapp = new HashMap<>();
 
+        for(String word:words){
+            mapp.put(word,mapp.getOrDefault(word,0)+1);
 
+        }
 
-
+        System.out.println(mapp);
     }
 }

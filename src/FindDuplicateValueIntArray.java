@@ -10,7 +10,7 @@ public class FindDuplicateValueIntArray {
 
         int [] numbers= {12,44,55,34,44,12,34,44,55,34};
 
-        removeDuplicatenumber(numbers);
+        findDuplicatenumber(numbers);
 
 
 
@@ -25,7 +25,7 @@ public class FindDuplicateValueIntArray {
             }
         }
     }
-    private static void removeDuplicatenumber(int[] number) {
+    private static void findDuplicatenumber(int[] number) {
         HashMap<Integer,Integer> map= new HashMap<>();
         for (int num: number){
             map.put(num,map.getOrDefault(num,0)+1);
