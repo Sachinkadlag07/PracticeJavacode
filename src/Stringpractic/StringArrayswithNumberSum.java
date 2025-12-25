@@ -8,10 +8,11 @@ public class StringArrayswithNumberSum {
 
         int sum =0;
 
-        for(String s: arr){
+        for(String str: arr){
 
-            if(s.matches("\\d+")){
-                sum = sum + Integer.parseInt(s);
+            if(str.matches("\\d+")){
+                int number = Integer.parseInt(str);
+                sum = sum + number;
             }
         }
 

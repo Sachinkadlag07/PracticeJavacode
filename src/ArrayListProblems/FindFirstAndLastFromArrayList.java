@@ -1,9 +1,6 @@
 package ArrayListProblems;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class FindFirstAndLastFromArrayList {
 
@@ -22,7 +19,15 @@ public class FindFirstAndLastFromArrayList {
         int first_number = List.getFirst();
         int last = List.getLast();
         int last_number = List.get(List.size() - 1);
+        System.out.println("Original ArrayList: " + List);
 
+        Collections.sort(List);
+
+
+        System.out.println("Sorted ArrayList: " + List);
+
+        Collections.sort(List,Collections.reverseOrder());
+        System.out.println("Sorted ArrayList: " + List);
         System.out.println("First number in the ArrayList: " + first_number);
         System.out.println("Last number in the ArrayList: " + last_number);
         System.out.println("Last number in the ArrayList: " + last);

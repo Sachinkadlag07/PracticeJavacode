@@ -43,5 +43,12 @@ public class CheckNumberPrimeNumber {
 
         System.out.println(list);
 
+        for(int i=2; i<=20;i++){
+            if(isPrime(i)) {
+                System.out.print(i + "\t");
+            }
+
+        }
+
     }
 }

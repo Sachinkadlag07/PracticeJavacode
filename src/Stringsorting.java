@@ -26,7 +26,7 @@ public class Stringsorting {
             }
 
         }
-        System.out.println(arry);
+        System.out.println(new String (arry));
 
 
 

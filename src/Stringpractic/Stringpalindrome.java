@@ -4,7 +4,7 @@ import com.sun.tools.javac.Main;
 
 public class Stringpalindrome {
     public static boolean ispalindrome(String str){
-        if (str ==null)
+        if (str ==null||str.isEmpty())
             return false;
         StringBuilder strb=new StringBuilder(str);
         strb.reverse();

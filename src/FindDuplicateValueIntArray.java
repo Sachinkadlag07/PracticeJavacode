@@ -30,7 +30,7 @@ public class FindDuplicateValueIntArray {
         for (int num: number){
             map.put(num,map.getOrDefault(num,0)+1);
         }
-
+       //System.out.println(map.get(34)+": sachin ");
         //print duplicates
 
         for(Map.Entry<Integer,Integer> entry:map.entrySet()){

@@ -5,6 +5,8 @@ public class SwappingString {
         String str1="hello";
         String str2="world";
 
+
+
         System.out.println("before swapping ");
         System.out.println("str1 "+ str1);
         System.out.println("str2 "+str2 );
