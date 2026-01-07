@@ -6,11 +6,12 @@ public class MoveZeroToEndOfArray {
 
     public static void moveZeroesToEnd(int[] arr) {
         int index = 0;
+        int temp;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
-                int temp = arr[index];
-                arr[index] = arr[i];
-                arr[i] = temp;
+                temp =arr[i];
+                arr[i]=arr[index];
+                arr[index]=temp;
                 index++;
             }
         }

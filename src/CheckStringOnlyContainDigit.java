@@ -2,7 +2,7 @@ public class CheckStringOnlyContainDigit {
 
     public static void main(String[] args) {
 
-        String str ="2334213";
+        String str ="2334113";
 
         boolean isNumeric = str.matches("\\d+");  // true if only digits
         System.out.println(isNumeric);

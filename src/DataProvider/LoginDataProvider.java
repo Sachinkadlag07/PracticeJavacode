@@ -1,6 +1,6 @@
 package DataProvider;
 
-//public class LoginDataProvider {
+//public class LOginDataProvider {
 //
 //    @DataProvider(name = "LoginCredential", indices = {0,1})
 //    public Object[][]getLoginData(){

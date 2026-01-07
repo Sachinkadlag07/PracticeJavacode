@@ -21,12 +21,12 @@ public class FindFirstAndLastFromArrayList {
         int last_number = List.get(List.size() - 1);
         System.out.println("Original ArrayList: " + List);
 
-        Collections.sort(List);
+        List.sort(Collections.reverseOrder());
 
 
         System.out.println("Sorted ArrayList: " + List);
 
-        Collections.sort(List,Collections.reverseOrder());
+        Collections.sort(List);
         System.out.println("Sorted ArrayList: " + List);
         System.out.println("First number in the ArrayList: " + first_number);
         System.out.println("Last number in the ArrayList: " + last_number);
@@ -41,6 +41,9 @@ public class FindFirstAndLastFromArrayList {
 
         System.out.println("lowest value: " + sortedList.getFirst());
         System.out.println("highest value: " + sortedList.getLast());
+
+        Integer[] arr = set.toArray(new Integer[0]);
+        System.out.println("Array elements: " + Arrays.toString(arr));
 
 
 

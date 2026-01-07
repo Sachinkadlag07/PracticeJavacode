@@ -18,7 +18,7 @@ public class ReverserCharOfEachWordInString {
 
         for(String word : words){
             StringBuilder reversedWord = new StringBuilder(word);
-            result.append(reversedWord.reverse().toString()+" ");
+            result.append(reversedWord.reverse().toString()).append(" ");
         }
 
         System.out.println(result.toString().trim());

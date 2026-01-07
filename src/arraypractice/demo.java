@@ -13,7 +13,7 @@ public class demo {
 
             String s1="Hello";
             String s2=new String("Hello");
-            System.out.println(s1==s2);
+            System.out.println(s1==s2);//false
 
 
 
